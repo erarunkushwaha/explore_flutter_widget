@@ -1,4 +1,4 @@
-import 'package:explore_flutter_widget/widget/chip_widget.dart';
+import 'package:explore_flutter_widget/widget/silverAppBar_Widget.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
@@ -14,11 +14,11 @@ class MyApp extends StatelessWidget {
       title: 'Switch',
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text("AK with PK"),
-          centerTitle: true,
-        ),
-        body: const ChipWidget(),
+        // appBar: AppBar(
+        //   title: const Text("AK with PK"),
+        //   centerTitle: true,
+        // ),
+        body: const SilverAppBarWidget(),
       ),
     );
   }
